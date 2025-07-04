@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scene-separation"
+version = "0.1.0"
+description = ""
+authors = ["Hira Aziz <hiraaziz1998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.11.0.86"
+numpy = "^2.2.6"
+scikit-image = "^0.25.2"
+torch = "^2.7.1"
+torchvision = "^0.22.1"
+pillow = "^11.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

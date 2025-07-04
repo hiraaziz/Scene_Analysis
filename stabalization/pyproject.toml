@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stabalization"
+version = "0.1.0"
+description = ""
+authors = ["Hira Aziz <hiraaziz1998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.11.0.86"
+numpy = "^2.2.6"
+scipy = "^1.15.3"
+torch = "^2.7.1"
+numba = "^0.61.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
